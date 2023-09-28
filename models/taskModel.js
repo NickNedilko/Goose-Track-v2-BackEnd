@@ -10,7 +10,7 @@ const taskSchema = new Schema(
       type: String,
       minlength: 3,
       maxlength: 250,
-      required: [true, "Title is required"],
+      // required: [true, "Title is required"],
     },
     start: {
       type: String,
